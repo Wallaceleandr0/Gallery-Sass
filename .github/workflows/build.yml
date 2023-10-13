@@ -24,10 +24,10 @@ jobs:
       - name: Build Sass
         run: npm run build-sass
 
-      - name: Deploy to GitHub Pages
-        run: |
-          git config --global user.email "wallaceleandro2003@gmail.com"
-          git config --global user.name "Wallaceleandr0"
-          git add .
-          git commit -m "Build and Deploy"
-          git push
+      # - name: Deploy to GitHub Pages
+      #   run: |
+      #     git config --global user.email "wallaceleandro2003@gmail.com"
+      #     git config --global user.name "Wallaceleandr0"
+      #     git add .
+      #     git commit -m "Build and Deploy"
+      #     git push
