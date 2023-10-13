@@ -71,20 +71,21 @@
     @include mixins.flex-center
     @include mixins.container
     flex-wrap: wrap
-    justify-content: space-between
+    justify-content: space-around
     padding: 0
 
     @include mixins.mobile
         flex-direction: column
+        justify-content: center
 
     &-card // .gallery-card
+        flex-wrap: wrap
         width: 31%
         height: 400px
         margin-bottom: 4%
         @include mixins.flex-center
         flex-direction: column
         color: variables.$primary-color
-    
         @include mixins.mobile
         width: 90%
         margin-bottom: 6%

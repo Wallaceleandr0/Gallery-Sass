@@ -20,11 +20,11 @@
 * .header {
   display: flex;
   justify-content: space-between;
-  max-width: 1170px;
+  max-width: 1470px;
   padding: 1.5rem 0;
   margin: 0 auto;
 }
-@media (max-width: 425px) {
+@media (max-width: 795px) {
   * .header {
     padding: 1.1rem;
   }
@@ -39,7 +39,7 @@
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 425px) {
+@media (max-width: 795px) {
   * .header-navbar ul {
     display: none;
   }
@@ -61,7 +61,7 @@
   justify-content: center;
   height: 100%;
 }
-@media (max-width: 425px) {
+@media (max-width: 795px) {
   * .header-social-media ul {
     display: none;
   }
@@ -77,19 +77,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1170px;
+  max-width: 1470px;
   padding: 1.5rem 0;
   margin: 0 auto;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0;
 }
-@media (max-width: 425px) {
+@media (max-width: 795px) {
   .gallery {
     flex-direction: column;
+    justify-content: center;
   }
 }
 .gallery-card {
+  flex-wrap: wrap;
   width: 31%;
   height: 400px;
   margin-bottom: 4%;
@@ -121,6 +123,8 @@
 .gallery #card-1 {
   background-image: url("../img/animais.jpg");
   background-size: 100%;
+  max-width: 450px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
@@ -133,6 +137,8 @@
 .gallery #card-2 {
   background-image: url("../img/arquitetura.jpg");
   background-size: 100%;
+  max-width: 450px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
@@ -145,6 +151,8 @@
 .gallery #card-3 {
   background-image: url("../img/cidade.jpg");
   background-size: 100%;
+  max-width: 450px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
@@ -157,6 +165,8 @@
 .gallery #card-4 {
   background-image: url("../img/decoracao.jpg");
   background-size: 100%;
+  max-width: 450px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
@@ -169,6 +179,8 @@
 .gallery #card-5 {
   background-image: url("../img/esportes.jpg");
   background-size: 100%;
+  max-width: 450px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
@@ -181,6 +193,8 @@
 .gallery #card-6 {
   background-image: url("../img/natureza.jpg");
   background-size: 100%;
+  max-width: 450px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
@@ -193,6 +207,8 @@
 .gallery #card-7 {
   background-image: url("../img/paisagem.jpg");
   background-size: 100%;
+  max-width: 450px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
@@ -205,6 +221,8 @@
 .gallery #card-8 {
   background-image: url("../img/pessoas.jpg");
   background-size: 100%;
+  max-width: 450px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
@@ -217,6 +235,8 @@
 .gallery #card-9 {
   background-image: url("../img/refeicoes.jpg");
   background-size: 100%;
+  max-width: 450px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
